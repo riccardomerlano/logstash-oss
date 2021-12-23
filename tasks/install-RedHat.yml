@@ -12,7 +12,7 @@
 
 - name: Elasticsearch repository
   yum_repository:
-    name: "elasticsearch-oss-{{ logstash_oss_version }}"
+    name: "logstash-oss-{{ logstash_oss_version }}"
     description: "Elasticsearch repository for oss-{{ logstash_oss_version }} packages"
     baseurl: https://artifacts.elastic.co/packages/oss-{{ logstash_oss_version }}/yum
     gpgcheck: true

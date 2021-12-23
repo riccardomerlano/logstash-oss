@@ -3,7 +3,7 @@
 # Tests
 # Logstash version configuration
 - name: Include OS Specific installation tasks
-  include: install-{{ ansible_os_family }}.yml
+  include: install-RedHat.yml
 
 - name: Logstash main configuration
   template:
